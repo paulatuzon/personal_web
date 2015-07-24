@@ -1,0 +1,334 @@
+#cuadro2{
+border-radius:30%;
+border:solid 1px;
+background-color:#F0F0F0;
+text-align:center;
+font-family:courier;
+font-size:14pt;
+padding: 20px;
+width:130px;
+}
+#cuadro2b{
+border-radius: 0%;
+border:solid 1px;
+border-color:#DCDCDC;
+background-color:#F0F0F0;
+text-align:left;
+/*font-family:courier;*/
+font-size:11pt;
+padding: 25px 25px 25px 25px;
+}
+
+#cuadro{
+border-radius: 0 0 5px 5px;
+border:solid 1px;
+border-color:#DCDCDC;
+background-color:none;
+/*#F0F0F0;*/
+/*width:450px;*/
+text-align:justify;
+padding: 15px 15px 15px 15px;
+}
+#cuadroup{
+border-radius: 0%;
+border:solid 1px;
+border-color:#DCDCDC;
+background-color:white;
+text-align:justify;
+padding: 5px 20px 5px 20px;
+}
+
+
+html,
+body{
+	  /*background: #F0F0F0;*/
+	  background:#F0F0F0;
+      /*font: 14px Trebuchet MS, Trebuchet, Helvetica, Arial;*/
+      font-family: Istok Web;
+      font-size:14px;
+	  line-height: 130%;
+      
+      text-align:justify;
+      
+    /*
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+	margin-left: auto; 
+    padding: 10px 20px 0px 20px; /*márgenes del texto dentro del body top right bottom left*/
+    *//*
+    width: 1024px;
+    min-height:100%;
+    */
+    
+	margin:0;
+    padding: 0px 35px 0px 35px;
+    height:100%;
+    width:1024px;/*make content static while enlarging or decreasing window*/
+}
+#container{
+background:white;
+min-height:100%;
+position:relative;
+/*height:100%;*//*dejar esta instrucción hace que el footer no haga "rolling down" y se queda por encima del texto*/
+
+border-left:solid 1px;
+border-right:solid 1px;
+border-color:black;  
+border-bottom:none; 
+}
+#header{
+padding-top:0px;
+
+width:100%;
+height:75px;
+background-color: white;
+background-position: center top;
+background-repeat: no-repeat;
+/* background-image: url('nop-dibujo.tiff'); */
+background-size: 100%;
+}
+#bbody{
+padding-top:250px;
+padding-bottom:0px;/* Height of the footer 90 is there is footer*/
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#cuadrofinal{
+font-size:8pt;
+border-radius: 0%;
+border:none;
+border-color:#C0C0C0;
+border-left-color:black;
+border-right-color:black;
+background-color:white;
+text-align:center;
+
+position:absolute;
+bottom:0;
+width:100%;
+height:90px;   /* Height of the footer */
+}
+
+
+h1 {
+	/* 
+color:#8F2250;
+	font-family: 'Denk One', sans-serif;
+ */
+	font-size:20pt;
+	font-family: 'Finger Paint', cursive;
+	color: black;
+}
+
+h2 {
+font-weight:normal;font-size:18pt;
+font-family: 'Finger Paint', cursive;
+
+	/*font-weight:normal;font-size:24pt;font-family:Annie Use Your Telescope;*/
+}
+
+#rotando{color:#8F2250;}
+
+
+#sometitles{
+font-size:10pt;
+	font-family: 'Finger Paint', cursive;
+	color: black;
+}
+
+
+
+ul {
+        list-style: square;
+}
+
+
+
+
+a{
+color: gray; 
+font-weight: bold; 
+text-decoration: none;
+}
+a:hover { color:#8F2250;}
+
+
+/*para dos columnas*/
+#div-1a {
+text-align:justify;
+float:left;
+width:49%;
+}
+#div-1b {
+text-align:justify;
+ float:right;
+ width:47%;
+}
+#div-1c {
+ clear:both;
+}
+
+/*para dos columnas más desiguales*/
+#diva {
+text-align:justify;
+ float:left;
+ width:68%;
+}
+#divaa {
+text-align:justify;
+ float:left;
+ width:58%;
+}
+#divb {
+text-align:justify;
+ float:right;
+ width:30%;
+}
+#divbb {
+text-align:justify;
+ float:right;
+ width:35%;
+}
+#divc {
+ clear:both;
+}
+
+.showhim {font-weight: bold; text-decoration:none; color:gray}
+.showhim:hover { color:black;}
+a.showhim {font-weight: bold; text-decoration:none; color:gray}
+a.showhim:hover { color:#8F2250;}
+
+.showme{ 
+display: none;
+}
+.showhim:hover .showme{
+display : block;
+color:black;
+text-align:justify;
+font-weight: normal;
+font-style: italic;
+}
+
+.showmetext{ 
+display: none;
+}
+.showhimtext:hover .showmetext{
+display : block;
+color:black;
+font-weight: normal;
+}
+
+
+
+/*nuevo submenu**********************/
+
+  .mi-menu  {
+    border-radius: 0px;
+    border:none;
+    list-style-type: none;
+    margin:0;
+    margin-left:0px;
+    padding:0;
+    width: 100%;
+    /* 
+	margin-top:100px;
+    margin-left:-21px;
+ 	*/
+    /* la altura y su ancho dependerán de los textos */
+    height: 35px; 
+    /* el color de fondo */
+    background:white;
+    font-family: 'Finger Paint', cursive;
+  }
+
+  /* si es necesario, evitamos que Blogger de problemas con los saltos de línea cuando escribimos el HTML */
+  .mi-menu  br { display:none; }
+
+  /* cada item del menu */
+  .mi-menu  li {
+    display: block;
+    float: left; /* la lista se ve horizontal */
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position:relative;
+    
+  }
+  .mi-menu li a {
+    border-left: none;
+    border-right: none;
+    color: black;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    padding: 0 20px;
+    margin: 6px 0;
+    text-decoration: none;
+  }
+  /* eliminamos los bordes del primer y el último */
+  .mi-menu li:first-child a { border-left: none; }
+  .mi-menu li:last-child a{ border-right: none; }
+  /* efecto hover cambia el color */
+  .mi-menu li:hover > a { color: black; }
+
+  /* los submenús */
+  .mi-menu ul {
+    border-radius: 0 0 5px 5px;
+    left: 0;
+    margin: 0;
+    opacity: 0; /* no son visibles */
+    position: absolute;
+    top: 40px; /* se ubican debajo del enlace principal */
+    /* el color de fondo */
+    border:solid 1px;
+    background: white;
+    /* animamos su visibildiad */
+    -moz-transition: opacity .25s ease .1s;
+    -webkit-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+  }
+  /* son visibes al poner el cursor encima */
+  .mi-menu li:hover > ul { opacity: 1; }
+
+   /* cada uno de los items de los submenús */
+  .mi-menu ul li {
+    height: 0; /* no son visibles */
+    overflow: hidden;
+    padding: 0;
+    /* animamos su visibildiad */
+    -moz-transition: height .25s ease .1s;
+    -webkit-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+  }
+  .mi-menu li:hover > ul li {
+    height: 36px; /* los mostramos */
+    overflow: visible;
+    padding: 0;
+  }
+  .mi-menu ul li a {
+    border: none;
+    border-bottom: 1px solid #111;
+    margin: 0;
+    /* el ancho dependerá de los textos a utilizar */
+    padding: 5px 20px;
+    width: 200px;
+  }
+  /* el último no tiene un borde */
+  .mi-menu ul li:last-child a { border: none; }
+  
+
+
+.errormessage {
+	text-align: center;
+	font-weight: bold;
+	color: red;
+
+}
