@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<html lang="es">
+<head>
+	<link rel="stylesheet" type="text/css" href="estilo.css" />
+	<link href=' http://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope' rel='stylesheet' type='text/css'>
+	<link href=' http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Give+You+Glory' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
+	
+    <title></title>
+    
+</head>
+<body>
+<div id="container">
+
+<div id="header">
+<div>
+<img style="border-radius: 0" src="yo2.jpg" width="100%"  align="center"> </img>
+</div>
+
+	<div>
+	<ul class="mi-menu">
+ <li><a href="/"> <u>Ací</u></a></li>
+  <li><a href="/index_alla.html"> Allà </a></li>
+    <li><a href="/index_alumnes.html"> Accés alumnes </a>
+  	<ul>
+      <li><a href="/index_alumnes.html"> Ciències per a mestres </a></li>
+      <li><a href="/index_alumnes.html"> Didàctica de les CCNN </a></li>
+    </ul></li>
+  <li><a href="/index_contacte.html"> Contacte </a></li>
+</ul>
+</div>
+</div>
+
+<div id="bbody">   
+<br>
+
+<!-- 
+<div id="cuadro">
+<script type="text/javascript">
+var indice = 0;
+frases = new Array();
+frases[0] = "En C/ Rascaña 26, Valencia - Que viene el lobo! Café-Taller";
+frases[1] = "Charla divulgativa de Jose Blanca <i>Dos sistemas, un cosmos</i> - 18/12/2014 19:30 - Info: www.connectacpc.es";
+indice = Math.random()*(frases.length);
+indice = Math.floor(indice);
+function rotar() {
+if (indice == frases.length) {indice = 0;}
+document.getElementById("rotando").innerHTML = frases[indice];
+indice++;
+setTimeout("rotar();",2000);
+}
+</script>
+<div id="rotando"></div><script type="text/javascript">rotar();</script>
+</div>
+
+<p>
+ -->
+
+
+
+<div id="div-1a">
+
+<div id="cuadro">
+<div id="sometitles">Obvietats sobre aquesta web</div>
+<p>
+És la web de treball de Paula Tuzón Marco. <a href="/">Ací</a> trobaràs aquesta pàgina, 
+<a href="/index_alla.html">Allà</a> veuràs penjats alguns enllaços interessants a altres webs, vídeos i
+documents que poden ser del vostre interès. Si ets alumne/a meu/a, en <a href="/index_alumnes.html">Accés alumnes</a>
+trobaràs la informació pertinent. I finalment, a <a href="/index_contacte.html">Contacte</a> estan les meues dades de contacte.
+</div>
+<p>
+
+<div id="cuadro">
+<div id="sometitles">Breu bioCV</div>
+<p>
+Vaig estudiar <b>Física</b> a la Universitat de València; a l'últim curs
+vaig fer una assignatura anomenada <b>Didàctica de les Ciències
+Experimentals</b>, amb Daniel Gil, que m'influiria alguns anys després
+en la meua dedicació. A l'últim curs també vaig estudiar
+<b>Teoria Quàntica de Camps</b>, aquesta m'influiria
+en els anys immediatament
+posteriors a finalitzar la llicenciatura. Vaig fer el <b>Màster en 
+Física Avançada</b> (Física Teòrica) i vaig presentar un
+treball anomenat "bla bla bla <b>Dos Doblets de Higgs</b>", amb José Bernabéu, 
+qui em va animar (i recolzar!) a l'hora d'endinsar-me en la carrera investigadora, 
+en la física de partícules.
+Vaig fer la tesi doctoral en la Universitat de València amb Toni Pich,
+qui va confiar en les meues
+mans un <a href="http://inspirehep.net/search?ln=es&ln=es&p=find+a+tuzon&of=hb&action_search=Buscar&sf=&so=d&rm=&rg=25&sc=0">
+projecte apassionant</a> que vaig
+defensar en Setembre de 2011 sota el títol "bla bla bla <b>Dos Doblets de Higgs</b>", 
+en anglès en aquest cas. Durant aquest periode i part de l'anterior, vaig
+fer estades amb grups d'investigació a Alemanya, Anglaterra, Estats Units i Portugal, 
+i vaig donar classe durant dos anys a la Universitat de València de 
+Teoria Quàntica de Camps precisament.
+<p>
+Després del doctorat vaig decidir continuar en investigació però en un camp
+més aplicat: els <b>sistemes complexos</b>, la dinàmica de col·lectius, 
+la propagació d'infeccions i la teoria de xarxes. 
+Em van fer un contracte postdoctoral a
+Palma de Mallorca, a l'IFISC, i vaig desenvolupar noves habilitats, tant
+en programació com reconnectant amb conceptes de la física i l'estadística. Passat
+un any i mig a <i>s'illa</i> vaig decidir, després d'encreuar molts
+arguments alhora, 
+dedicar-me a l'ensenyament de les ciències experimentals i la seua investigació. 
+<p>
+En este sentit, vaig fer el Màster en <b>Investigació
+en Didàctiques Específiques</b> (especialitat de Ciències Experimentals); al mateix temps,
+he sigut <b>professora</b> de Física i Química i Anglès Oral
+en <b>ESO</b> i <b>batxillerat</b> i
+Professora Associada de la Universitat de València. A dia de hui, sóc 
+Professora al <a href="http://www.uv.es/didciencies">Departament de Didàctica
+de les Ciències Experimentals</a> a la Facultat de Magisteri i investigue
+sobre l'ensenyament de física moderna a la secundària. A més,
+sóc presidenta de l'Associació de <b>Promoció Científica</b> <a href="http://www.connectacpc.es">Connecta</a>, 
+des d'on fem coses interessants com ara desenvolupament de <i>software</i> didàctic, 
+xarrades divulgatives, tècniques d'ensenyament de les ciències i tallers.
+<p>
+En general, el meu interès es centra en la transmissió
+i debat dels conceptes científics, tant a nivell investigador com docent,  
+en l'<b>alfabetització
+científica</b> i l'ensenyament de les ciències basat en la indagació. HOLA.
+</div>
+
+</div>
+
+<div id="div-1b">
+
+<div id="cuadro">
+<div id="sometitles">Sobre l'ensenyament de les ciències</div>
+<br>
+<iframe src="//player.vimeo.com/video/30861935" width="400" height="281" frameborder="0" 
+webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+</div>
+
+<p>
+
+<div id="cuadro">
+<div id="sometitles">Sobre el Higgs</div>
+<br>
+<iframe width="400" height="281" src="//www.youtube.com/embed/9Uh5mTxRQcg" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<p>
+
+<div id="cuadro">
+<div id="sometitles">Sobre els sistemes complexos</div>
+<br>
+<iframe width="400" height="281" src="//www.youtube.com/embed/usn8Ea2kBWk" frameborder="0" allowfullscreen></iframe>
+</div>
+
+</div>
+<div id="div-1c">
+</div>
+
+
+</div>
+
+<br>
+
+<!-- 
+<div id="cuadrofinal"> 
+<div style="text-align:right;"><h1>«Comprendre és relacionar»&nbsp</h1></div>
+</div>
+ -->
+
+</div> 
+</body>
+</html>
+
